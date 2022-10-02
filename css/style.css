@@ -7,7 +7,7 @@
 body {
   display: flex;
   min-height: 100vh;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /* MENU ITEMS START */
@@ -39,6 +39,10 @@ body {
   margin-top: 1rem;
 }
 
+.paragraph {
+  margin-top: 1rem;
+}
+
 /* SECTION END */
 
 /* ARTICLE */
@@ -61,16 +65,12 @@ body {
 }
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .content > section {
   flex: 3;
-  min-height: 60vh;
 }
-.content > aside {
-  background: beige;
-  flex: 1;
-}
+
 header,
 footer {
   height: 20vh;
@@ -78,7 +78,6 @@ footer {
 header,
 footer,
 article,
-nav,
-aside {
+nav {
   padding: 1em;
 }
