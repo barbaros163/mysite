@@ -32,7 +32,8 @@
     gap: 2.5rem;
     font-size: 1.5rem;
   }
-  .text-secondary {
+  .text-secondary,
+  .repo__link {
     color: $secondary-color;
   }
 }
